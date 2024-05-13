@@ -1,0 +1,62 @@
+#root 
+{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#calcBody
+{
+  border-radius: 2vh;
+  background-color: #585657;
+  color: white;
+  margin-left: 32vw;
+  margin-right: 32vw;
+  padding: 4vb;
+}
+
+#inputMargin1
+{
+  margin-top: auto;
+}
+
+#inputMargin2
+{
+  margin-top: auto;
+}
+
+#btnStyle
+{
+  background-color: #1d74d2;
+  color: white;
+  border: none;
+  padding: 1vb;
+  border-radius: 0.8vb;
+  transition: 300ms;
+}
+
+button:hover
+{
+  background-color: #1759a0;
+  transition: 300ms;
+}
+
+.inputStyle
+{
+  padding: 1vb;
+  border-radius: 1vb;
+  transition: 300ms;
+}
+
+.inputStyle:hover
+{
+  background-color: #d8d8d8;
+  transition: 300ms;
+}
+
+@font-face 
+{
+  font-family: "Inter";
+  src: url("../src/assets/fonts/Inter-4.0/InterVariable.ttf");
+}
